@@ -28,8 +28,10 @@
     ![](image/img2.png)
     
     
-####fuction2：UITableViewCell中的cell自适应高度--》MassonryB
+    
+###fuction2：UITableViewCell中的cell自适应高度--》MassonryB
 ----
+
 ######简介
  *  使用Mssonry使UITableViewCell的cell高度自适应；
  *  YYModel解析JSON生成model；
