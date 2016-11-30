@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC75E1891DEDA78400D5BEEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC75E1881DEDA78400D5BEEB /* main.m */; };
+		DC75E18C1DEDA78400D5BEEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC75E18B1DEDA78400D5BEEB /* AppDelegate.m */; };
+		DC75E18F1DEDA78400D5BEEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC75E18E1DEDA78400D5BEEB /* ViewController.m */; };
+		DC75E1921DEDA78500D5BEEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC75E1901DEDA78500D5BEEB /* Main.storyboard */; };
+		DC75E1941DEDA78500D5BEEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC75E1931DEDA78500D5BEEB /* Assets.xcassets */; };
+		DC75E1971DEDA78500D5BEEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC75E1951DEDA78500D5BEEB /* LaunchScreen.storyboard */; };
+		DC75E1A01DEDA7A100D5BEEB /* TTips.m in Sources */ = {isa = PBXBuildFile; fileRef = DC75E19F1DEDA7A100D5BEEB /* TTips.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC75E1841DEDA78400D5BEEB /* TTipss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTipss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC75E1881DEDA78400D5BEEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC75E18A1DEDA78400D5BEEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC75E18B1DEDA78400D5BEEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC75E18D1DEDA78400D5BEEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC75E18E1DEDA78400D5BEEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC75E1911DEDA78500D5BEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC75E1931DEDA78500D5BEEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC75E1961DEDA78500D5BEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC75E1981DEDA78500D5BEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC75E19E1DEDA7A100D5BEEB /* TTips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTips.h; sourceTree = "<group>"; };
+		DC75E19F1DEDA7A100D5BEEB /* TTips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTips.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC75E1811DEDA78400D5BEEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC75E17B1DEDA78400D5BEEB = {
+			isa = PBXGroup;
+			children = (
+				DC75E1861DEDA78400D5BEEB /* TTipss */,
+				DC75E1851DEDA78400D5BEEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC75E1851DEDA78400D5BEEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC75E1841DEDA78400D5BEEB /* TTipss.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC75E1861DEDA78400D5BEEB /* TTipss */ = {
+			isa = PBXGroup;
+			children = (
+				DC75E18A1DEDA78400D5BEEB /* AppDelegate.h */,
+				DC75E18B1DEDA78400D5BEEB /* AppDelegate.m */,
+				DC75E19E1DEDA7A100D5BEEB /* TTips.h */,
+				DC75E19F1DEDA7A100D5BEEB /* TTips.m */,
+				DC75E18D1DEDA78400D5BEEB /* ViewController.h */,
+				DC75E18E1DEDA78400D5BEEB /* ViewController.m */,
+				DC75E1901DEDA78500D5BEEB /* Main.storyboard */,
+				DC75E1931DEDA78500D5BEEB /* Assets.xcassets */,
+				DC75E1951DEDA78500D5BEEB /* LaunchScreen.storyboard */,
+				DC75E1981DEDA78500D5BEEB /* Info.plist */,
+				DC75E1871DEDA78400D5BEEB /* Supporting Files */,
+			);
+			path = TTipss;
+			sourceTree = "<group>";
+		};
+		DC75E1871DEDA78400D5BEEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC75E1881DEDA78400D5BEEB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC75E1831DEDA78400D5BEEB /* TTipss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC75E19B1DEDA78500D5BEEB /* Build configuration list for PBXNativeTarget "TTipss" */;
+			buildPhases = (
+				DC75E1801DEDA78400D5BEEB /* Sources */,
+				DC75E1811DEDA78400D5BEEB /* Frameworks */,
+				DC75E1821DEDA78400D5BEEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTipss;
+			productName = TTipss;
+			productReference = DC75E1841DEDA78400D5BEEB /* TTipss.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC75E17C1DEDA78400D5BEEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = MissTjj;
+				TargetAttributes = {
+					DC75E1831DEDA78400D5BEEB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9936BS5G2W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC75E17F1DEDA78400D5BEEB /* Build configuration list for PBXProject "TTipss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC75E17B1DEDA78400D5BEEB;
+			productRefGroup = DC75E1851DEDA78400D5BEEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC75E1831DEDA78400D5BEEB /* TTipss */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC75E1821DEDA78400D5BEEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC75E1971DEDA78500D5BEEB /* LaunchScreen.storyboard in Resources */,
+				DC75E1941DEDA78500D5BEEB /* Assets.xcassets in Resources */,
+				DC75E1921DEDA78500D5BEEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC75E1801DEDA78400D5BEEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC75E18F1DEDA78400D5BEEB /* ViewController.m in Sources */,
+				DC75E18C1DEDA78400D5BEEB /* AppDelegate.m in Sources */,
+				DC75E1A01DEDA7A100D5BEEB /* TTips.m in Sources */,
+				DC75E1891DEDA78400D5BEEB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC75E1901DEDA78500D5BEEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC75E1911DEDA78500D5BEEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC75E1951DEDA78500D5BEEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC75E1961DEDA78500D5BEEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC75E1991DEDA78500D5BEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC75E19A1DEDA78500D5BEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC75E19C1DEDA78500D5BEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9936BS5G2W;
+				INFOPLIST_FILE = TTipss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hero.overseas.TTipss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC75E19D1DEDA78500D5BEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9936BS5G2W;
+				INFOPLIST_FILE = TTipss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hero.overseas.TTipss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC75E17F1DEDA78400D5BEEB /* Build configuration list for PBXProject "TTipss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC75E1991DEDA78500D5BEEB /* Debug */,
+				DC75E19A1DEDA78500D5BEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC75E19B1DEDA78500D5BEEB /* Build configuration list for PBXNativeTarget "TTipss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC75E19C1DEDA78500D5BEEB /* Debug */,
+				DC75E19D1DEDA78500D5BEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC75E17C1DEDA78400D5BEEB /* Project object */;
+}
